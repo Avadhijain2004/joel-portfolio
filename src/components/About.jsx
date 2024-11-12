@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 function About() {
     return (
-        <div className='border-b border-purple-950 pb-16'>
+        <div className='border-b border-blue-950 pb-16'>
             <h1 className='my-20 text-center text-4xl'>About <span className='text-neutral-500'>Me</span></h1>
             <div className='flex flex-wrap'>
                 <div className='w-full lg:w-1/2 lg:pl-20 lg:pr-0 pl-6 pr-6'>

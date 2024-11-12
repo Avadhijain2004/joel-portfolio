@@ -14,7 +14,7 @@ const container = (delay) =>({
 
 function Hero() {
     return (
-        <div className='border-b border-purple-950 pb-4 lg:mb-36'>
+        <div className='border-b border-blue-950 pb-4 lg:mb-36'>
             <div className="flex flex-wrap ">
                 <div className='w-full lg:w-1/2'>
                     <div className='flex flex-col items-center lg:items-start ml-2 lg:ml-20'>
