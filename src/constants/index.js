@@ -8,7 +8,7 @@ export const HERO_CONTENT = `Electronics and Instrumentation Engineer specialize
 
 export const EXPERIENCES = [
   {
-    duration: "01/01/2024 - 01/02/2024",
+    duration: "15/01/2024 - 15/02/2024",
     role: "Python Developer",
     company: "CodSoft",
     description: ` Developed various Python-based projects including a contact book app, password generator app, and to-do list app and achieved Best Intern of the Month at CodSoft by optimizing code for a key project, reducing runtime by 20% and improving user satisfaction scores by 15%`,
@@ -61,6 +61,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Indore, Madhya Pradesh",
-  phoneNo: "+91 70006-19650",
-  email: "avadhijain2004@gmail.com",
+  phoneNo: "+91 8827020133",
+  email: "joelmichael53296@gmail.com",
 };
