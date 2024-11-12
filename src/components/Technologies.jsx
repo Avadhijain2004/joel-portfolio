@@ -64,7 +64,7 @@ function Technologies() {
                 initial="initial"
                 animate="animate"
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <FaMicrochip className='text-7xl text-purple-300' />
+                    <FaMicrochip className='text-7xl text-purple-200' />
                 </motion.div>
                 
                 <motion.div 

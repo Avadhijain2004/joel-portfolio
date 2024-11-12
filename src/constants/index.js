@@ -1,8 +1,8 @@
-import project1 from '../assets/projects/project-1.png'
-import project2 from '../assets/projects/project-2.png'
+import project1 from '../assets/projects/project-3.jpg'
+import project2 from '../assets/projects/project-2.jpg'
 import project3 from '../assets/projects/project-3.png'
-import project4 from '../assets/projects/project-4.png'
-import project5 from '../assets/projects/project-5.png'
+import project4 from '../assets/projects/project-4.jpg'
+import project5 from '../assets/projects/project-1.jpg'
 
 export const HERO_CONTENT = `Electronics and Instrumentation Engineer specialized in PCB design, PLC programming, 3D modeling, C++ Arduino development, HMI design, and prompt engineering—creating smart, integrated systems that drive efficiency and innovation`;
 
@@ -18,45 +18,38 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Medicare (An Online Doctors Clinic)",
+    title: "Sun Tracking Solar Panel System",
     image: project5,
     description:
-      "Developed the frontend of an online doctor's clinic using ReactJS, with integrated payment gateway, as part of a MERN stack project. ",
-    technologies: ["MERN Stack", "Tailwind CSS", "Javascript", "Stripe"],
-    code: "https://github.com/Naman-Mishra-3116/industrialTraining",
+      "A sun-tracking solar panel dynamically adjusts its position to follow the sun movement, unlike static panels that remain fixed at a single angle. This capability enables it to capture more sunlight throughout the day, thereby generating increased solar energy ",
+    technologies: ["Arduino IDE" , "DipTrace", "Fusion 360"],
+    code: "",
   },
   {
-    title: "Tweet Craft (A Dynamic Tweet App)",
+    title: "Line Follower",
     image: project4,
     description:
-      "A dynamic tweet app where you can create, update or delete your tweets and can read tweets of others also.",
-    technologies: ["HTML", "Bootstrap CSS", "Django", "Javascript"],
-    code: "https://github.com/Avadhijain2004/Tweet-app-Django",
+      "A Line Following Robot is an autonomous robot which is able to follow either a black or white line that is drawn on the surface consisting of a contrasting colour.",
+    technologies: ["Arduino IDE"],
+    code: "",
   },
   {
-    title: "KnowMeds (A Medicine Recommendation System)",
+    title: "Plc - Traffic Control System",
     image: project1,
     description:
-      "A system to provide users with medicine descriptions and alternate recommendations.",
-    technologies: ["HTML", "CSS", "Python", "ML", "Streamlit"],
-    code: "https://github.com/Avadhijain2004/medicine_recommender_system",
+      "A Programmable Logic Controller (PLC) traffic control system is a system that uses a PLC to monitor input devices and control output devices to manage traffic flow and improve safety. PLCs are industrial computers that can be used in many production processes.",
+    technologies: ["PLC","HMI"],
+    code: "",
   },
   {
-    title: "ShabdKosh (A Dictionary App)",
+    title: "Automatic Car Washing and Parking System",
     image: project2,
     description:
-      "A user-friendly application designed to provide quick and accurate definitions for any word you search. With a sleek interface and intuitive navigation, this app ensures that finding word meanings is a seamless experience. Built using HTML, CSS, and JavaScript, it combines modern web technologies to deliver a responsive and interactive dictionary tool for users of all ages",
-    technologies: ["HTML", "CSS", "Javascript"],
-    code: "https://github.com/Avadhijain2004/Dictionary-app",
+      "An Automatic Car Washing and Parking System automates car cleaning and parking using sensors and robotics. It efficiently washes vehicles and parks them in available spots, streamlining both processes for convenience and time-saving.",
+    technologies: [ "Ladder Programming", "C++"],
+    code: "",
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React JS","HTML", "CSS", "Javascript"],
-    code: "https://github.com/Avadhijain2004/Portfolio",
-  },
+  
 ];
 
 export const CONTACT = {
