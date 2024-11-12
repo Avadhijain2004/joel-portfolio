@@ -11,7 +11,7 @@ export const EXPERIENCES = [
     duration: "15/01/2024 - 15/02/2024",
     role: "Python Developer",
     company: "CodSoft",
-    description: ` Developed various Python-based projects including a contact book app, password generator app, and to-do list app and achieved Best Intern of the Month at CodSoft by optimizing code for a key project, reducing runtime by 20% and improving user satisfaction scores by 15%`,
+    description: ` Developed various Python-based projects including a contact book app, password generator app, and to-do list app.`,
     technologies: ["Python", "Streamlit"],
   },
 ];

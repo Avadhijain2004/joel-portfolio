@@ -15,14 +15,14 @@ function Projects() {
             <div className='lg:p-0 p-4'>
                 {PROJECTS.map((project,index)=>(
                     <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
-                        <motion.div 
+                        <div 
                         initial={{x:-100,opacity:0}}
                         whileInView={{x:0,opacity:1}}
                         transition={{duration:1}}
-                        className='w-full lg:w-1/4'>
-                        <img width={200} height={200} src={project.image} className='mb-6 rounded mt-4'/>
-                        </motion.div>
-                        <motion.div 
+                        className='w-full lg:w-1/4 items-center justify-center flex flex-wrap '>
+                        <img width={200} height={200} src={project.image} className='mb-6 rounded mt-4 '/>
+                        </div>
+                        <div 
                         initial={{x:100,opacity:0}}
                         whileInView={{x:0,opacity:1}}
                         transition={{duration:1}}
@@ -34,7 +34,7 @@ function Projects() {
                         {project.technologies.map((tech,index)=>(
                             <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-0.5 text-sm text-sky-300 font-light'>{tech}</span>
                         ))}
-                        </motion.div>
+                        </div>
                     </div>
                 ))}
             </div>
