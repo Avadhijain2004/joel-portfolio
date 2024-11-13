@@ -13,7 +13,17 @@ export const EXPERIENCES = [
     company: "CodSoft",
     description: ` Developed various Python-based projects including a contact book app, password generator app, and to-do list app.`,
     technologies: ["Python", "Streamlit"],
+    linking:"",
   },
+  {
+    duration: "01/01/2024 - Present",
+    role: "Video Editor and Thumbnail Designer",
+    company: "El Shaddai Church of God",
+    description: `https://www.youtube.com/@ElShaddaiChurchIndore`,
+    technologies: ["Video Editing","Graphic Designing"],
+    linking: "https://www.youtube.com/@ElShaddaiChurchIndore",
+  },
+  
 ];
 
 export const PROJECTS = [
