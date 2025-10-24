@@ -7,8 +7,16 @@ import project5 from '../assets/projects/project-1.jpg'
 export const HERO_CONTENT = `Electronics and Instrumentation Engineer specialized in PCB design, PLC programming, 3D modeling, C++ Arduino development, HMI design, and prompt engineering—creating smart, integrated systems that drive efficiency and innovation`;
 
 export const EXPERIENCES = [
+    {
+    duration: "01/05/2025 - 07/31/2024",
+    role: "Electronics Inter (R&D)",
+    company: "Scientech Technologies Pvt Ltd ",
+    description: ` Worked on designing and testing electronic and PLC systems, contributing to AI kit development for educational workbenches, Smart Factory automation, and digital twin technologies, integrating hardware, software, and control systems to enhance intelligent manufacturing and real-time simulation capabilities.`,
+    technologies: ["Python", "PLC",  "Arduino","HTML",  "JavaScript", "Flask", "Modbus TCP/IP", "Computer Vision (OpenCV, YOLO, TensorFlow)", "3D Modeling (FreeCAD, Onshape)", "Digital Twin Simulation", "Automation Systems","Raspberry-Pi"] ,
+    linking:"",
+  },
   {
-    duration: "15/01/2024 - 15/02/2024",
+    duration: "01/15/2024 - 02/15/2024",
     role: "Python Developer",
     company: "CodSoft",
     description: ` Developed various Python-based projects including a contact book app, password generator app, and to-do list app.`,
@@ -27,6 +35,22 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Smart Factory UI",
+    image: project5,
+    description:
+      "A sun-tracking solar panel dynamically adjusts its position to follow the sun movement, unlike static panels that remain fixed at a single angle. This capability enables it to capture more sunlight throughout the day, thereby generating increased solar energy ",
+    technologies: ["Arduino IDE" , "DipTrace", "Fusion 360"],
+    code: "",
+  },
+    {
+    title: "AI Addon kit for workbench",
+    image: project5,
+    description:
+      "A sun-tracking solar panel dynamically adjusts its position to follow the sun movement, unlike static panels that remain fixed at a single angle. This capability enables it to capture more sunlight throughout the day, thereby generating increased solar energy ",
+    technologies: ["Arduino IDE" , "DipTrace", "Fusion 360"],
+    code: "",
+  },
   {
     title: "Sun Tracking Solar Panel System",
     image: project5,
@@ -63,7 +87,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Indore, Madhya Pradesh",
-  phoneNo: "+91 8827020133",
-  email: "joelmichael53296@gmail.com",
+  address: "Tempe, Arizona",
+  phoneNo: "+1 (623) 565 1682",
+  email: "joelmichael5704@gmail.com",
 };
