@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../assets/formal-joel.jpeg'
+import aboutImg from '../assets/formal-joel1.jpg'
 import { motion } from "framer-motion"
 
 function About() {
